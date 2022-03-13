@@ -1,0 +1,14 @@
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\HowToCube.exe.config
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\HowToCube.exe.manifest
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\HowToCube.application
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\HowToCube.exe
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\HowToCube.pdb
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\HowToCube.exe.manifest
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\HowToCube.application
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\HowToCube.exe
+C:\Users\Rikey\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\HowToCube.pdb
