@@ -2,7 +2,7 @@
 Program ukazujący krok po kroku jak układać kostkę Rubika 3x3
 Metoda LBL.
 
-Pobierz: <a href="https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/semazurek/HowToCube/blob/main/HowToCube.exe">HowToCube.exe</a>
+Pobierz: <a href="https://github.com/semazurek/HowToCube/raw/main/HowToCube.exe">HowToCube.exe</a>
 
 ## Podgląd
 
