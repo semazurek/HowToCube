@@ -5,7 +5,8 @@ Methode LBL.
 
 Download: <a href="https://github.com/semazurek/HowToCube/raw/main/HowToCube.exe">HowToCube.exe</a>
 
-## Podgląd
+## First look
 <p align="center">
-<img src="https://user-images.githubusercontent.com/85984736/158049838-2c300bce-a784-4d82-b175-2ea0cb352dad.png" width="600">
+<img src="https://github.com/user-attachments/assets/acb04017-7b8e-4b9a-bf60-d9d57dc9e297" width="600">
+
 </p>
