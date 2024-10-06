@@ -1,5 +1,6 @@
 # HowToCube
 An application showing step by step how to solve a 3x3 Rubik's cube.
+
 Auto Language: English, Polish.
 
 Method: LBL.
