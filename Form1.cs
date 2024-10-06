@@ -8,6 +8,7 @@ using System.Text;
 using System.Runtime.InteropServices; //FLAT GUI drag mouse
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace WindowsFormsApp1
 {
@@ -34,9 +35,15 @@ namespace WindowsFormsApp1
 
             Size = new Size(739, 194);
            panel1.Location = new Point(-12, 150);
-
-            label1.Text = "Zaczynajmy ! Najpierw ułóż biały krzyż, którego ramiona będą tego\n" +
+            CultureInfo cinfo = CultureInfo.InstalledUICulture;
+            label2.Text = "To do:";
+            label1.Text = "Let's get started ! First arrange a white cross, the arms of which will \r\nbe of the  the same color as the centers of the other walls adjacent to it.";
+            if (cinfo.Name == "pl-PL")
+            {
+                label1.Text = "Zaczynajmy ! Najpierw ułóż biały krzyż, którego ramiona będą tego\n" +
                 "samego koloru co środki innych ścian do niego przylegających.";
+                label2.Text = "Polecenie:";
+            }
         }
 
         //gonext button
@@ -47,17 +54,28 @@ namespace WindowsFormsApp1
             {
                 Size = new Size(739, 194);
                 panel1.Location = new Point(-12, 150);
-
-                label1.Text = "Zaczynajmy ! Najpierw ułóż biały krzyż, którego ramiona będą tego\n" +
+                CultureInfo cinfo = CultureInfo.InstalledUICulture;
+                label2.Text = "To do:";
+                label1.Text = "Let's get started ! First arrange a white cross, the arms of which will \r\nbe of the  the same color as the centers of the other walls adjacent to it.";
+                if (cinfo.Name == "pl-PL")
+                {
+                    label1.Text = "Zaczynajmy ! Najpierw ułóż biały krzyż, którego ramiona będą tego\n" +
                     "samego koloru co środki innych ścian do niego przylegających.";
+                    label2.Text = "Polecenie:";
+                }
                 pictureBox1.Image = WindowsFormsApp1.Properties.Resources.PictureBox11;
             }
 
             if (counter == 1)
             {
+                CultureInfo cinfo = CultureInfo.InstalledUICulture;
+                label1.Text = "And now let's get on with inserting the corners into our cross, \nso as to keep the same color as it is on the blocks next to it, \nwhile substituting a block under the place we have chosen. \nRepeat the algorithm until you get it right.";
+                if (cinfo.Name == "pl-PL")
+                {
                 label1.Text = "A teraz zajmijmy się wstawianiem narożników do naszego krzyża,\n" +
                 "tak aby zachować ten sam kolor jaki jest na klockach obok,\n przy czym podstaw " +
                 "klocek pod wybrane przez nas miejsce. \nAlgorytm powtarzać aż do skutku.";
+                }
                 pictureBox1.Image = WindowsFormsApp1.Properties.Resources._2;
                 pictureBox2.Image = WindowsFormsApp1.Properties.Resources.o1;
                 Size = new Size(739, 294);
@@ -75,9 +93,14 @@ namespace WindowsFormsApp1
             }
             if (counter==2)
             {
+                CultureInfo cinfo = CultureInfo.InstalledUICulture;
+                label1.Text = "Then turn the cube with the white color down, as\nwe will now deal with putting the blocks from point \nA in place of the blocks at point B.";
+                if (cinfo.Name == "pl-PL")
+                {
                     label1.Text = "Następnie odwróc kostkę białym kolorem do dołu, gdyż\n " +
                         "zajmiemy się teraz wkładaniem klocków z punktu\nA w miejsce " +
                         "klocków w punkcie B.";
+                }
                 pictureBox1.Image = WindowsFormsApp1.Properties.Resources._3;
 
                 pictureBox2.Image = WindowsFormsApp1.Properties.Resources.o21;
@@ -118,9 +141,14 @@ namespace WindowsFormsApp1
             }
             if (counter == 3)
             {
-                label1.Text = "W tej części wazne jest ułożenie kostki w dłoni przed\n" +
+                CultureInfo cinfo = CultureInfo.InstalledUICulture;
+                label1.Text = "In this part, it is important to arrange the cube in the hand before \nexecuting the algorithm, which is the same for 3 different \npatterns in order to arrange the yellow cross without affecting the rest.";
+                if (cinfo.Name == "pl-PL")
+                {
+                    label1.Text = "W tej części wazne jest ułożenie kostki w dłoni przed\n" +
                               "wykonaniem algorytmu, który jest ten sam dla 3 różnych\n" +
                               "wzorów w celu ułożenia żółtego krzyża nie naruszając reszty.";
+                }
                 pictureBox1.Image = WindowsFormsApp1.Properties.Resources._4;
 
                 pictureBox2.Image = WindowsFormsApp1.Properties.Resources.o31;
@@ -183,12 +211,15 @@ namespace WindowsFormsApp1
 
                 Size = new Size(739, 378);
                 panel1.Location = new Point(-12, 334);
-
-                label1.Text = "Kolejny etapem będzie ustawienie ramion naszego krzyża " +
+                CultureInfo cinfo = CultureInfo.InstalledUICulture;
+                label1.Text = "The next step will be to position the arms of our cross \nso that the color is the same as the centers of the other walls. \nTo make the algorithm, we move the top yellow wall so that \nwe get any of the patterns shown below.";
+                if (cinfo.Name == "pl-PL")
+                {
+                    label1.Text = "Kolejny etapem będzie ustawienie ramion naszego krzyża " +
                     "tak by\nkolor był ten sam co środki innych ścian. W celu wykonania\n" +
                     "algorytmu przesuwamy górną żółtą ściane tak by uzyskać któryś z\n" +
                     "przedstawionych poniżej wzorów.";
-
+                }
                 label3.Visible = true;
                 pictureBox3.Image = WindowsFormsApp1.Properties.Resources.h2;
                 pictureBox4.Image = WindowsFormsApp1.Properties.Resources.j2;
@@ -213,8 +244,13 @@ namespace WindowsFormsApp1
 
                 label4.Visible = true;
                 label5.Visible = true;
-                label4.Text = "Dwa sąsiadujące obok siebie\nUkładamy w tym przypadku\nod koloru zielonego.";
-                label5.Text = "Dwa na przeciwko siebie\nUkładamy od jednego z\nwybranych, tutaj niebieski.";
+                label4.Text = "Two adjacent side by side \nWe arrange in this case \nfrom the color green.";
+                label5.Text = "Two against each other \nArrange from one of the \nselected, here blue.";
+                if (cinfo.Name == "pl-PL")
+                {
+                    label4.Text = "Dwa sąsiadujące obok siebie\nUkładamy w tym przypadku\nod koloru zielonego.";
+                    label5.Text = "Dwa na przeciwko siebie\nUkładamy od jednego z\nwybranych, tutaj niebieski.";
+                }
             }
             if (counter == 5)
             {
@@ -236,12 +272,15 @@ namespace WindowsFormsApp1
                 pictureBox8.Image = WindowsFormsApp1.Properties.Resources.j1;
                 pictureBox9.Image = WindowsFormsApp1.Properties.Resources.l2;
                 pictureBox10.Image = WindowsFormsApp1.Properties.Resources.j2;
-
-                label1.Text = "Znajdź narożnik, który jest na swoim miejscu, może być źle " +
+                CultureInfo cinfo = CultureInfo.InstalledUICulture;
+                label1.Text = "Find the corner that is in its place, it may be turned wrong, \nalgorithm perform holding the cube having it on the left side. \nIf none is found, start the algorithm from any side. \nDo the algorithm until the corners are in their places.";
+                if (cinfo.Name == "pl-PL")
+                {
+                    label1.Text = "Znajdź narożnik, który jest na swoim miejscu, może być źle " +
                     "odwrócony,\n algorytm wykonuj trzymając kostkę mając go po z lewej strony.\n" +
                     "Jeżeli nie znaleziono żadnego, algorytm zacznij z jakiejkolwiek strony." +
                     "\nAlgorytm robić do skutku, aż narożniki znajdą się na swoich miejscach.";
-
+                }
                 pictureBox7.Visible = true;
                 pictureBox8.Visible = true;
                 pictureBox9.Visible = true;
@@ -260,11 +299,15 @@ namespace WindowsFormsApp1
                 pictureBox8.Visible = false;
                 pictureBox9.Visible = false;
                 pictureBox10.Visible = false;
-
-                label1.Text = "Teraz wystarczy tylko obrócić narożniki we właściwym kierunku.\n" +
+                CultureInfo cinfo = CultureInfo.InstalledUICulture;
+                label1.Text = "Now you just need to turn the corners in the right direction. \nWe repeat 1 algorithm until the corner does not enter its \nplace correctly. We do not rotate the whole cube cure only \nthe top yellow layer and do so for all wrongly rotated corners.";
+                if (cinfo.Name == "pl-PL")
+                {
+                    label1.Text = "Teraz wystarczy tylko obrócić narożniki we właściwym kierunku.\n" +
                     "Powtarzamy 1 algorytm, aż narożnik nie wejdzie prawidłowo na swoje\nmiejsce. " +
                     "Nie obracamy całej kostki leczy tylko górną żółtą warstwę i\nrobimy tak dla wszystkich źle obróconych narożników.";
-            }
+                }
+                }
             if (counter>=7)
             {
                 counter = 6;

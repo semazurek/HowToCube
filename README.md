@@ -1,9 +1,9 @@
 # HowToCube
-Program ukazujący krok po kroku jak układać kostkę Rubika 3x3.
+An application showing step by step how to solve a 3x3 Rubik's cube.
 
-Metoda LBL.
+Methode LBL.
 
-Pobierz: <a href="https://github.com/semazurek/HowToCube/raw/main/HowToCube.exe">HowToCube.exe</a>
+Download: <a href="https://github.com/semazurek/HowToCube/raw/main/HowToCube.exe">HowToCube.exe</a>
 
 ## Podgląd
 <p align="center">
